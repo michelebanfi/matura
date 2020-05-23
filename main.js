@@ -1,66 +1,55 @@
+
+
+var array = new Array();
+var arrayrnd = [];
+var dataset;
+
 function changeImage() {
-    var rnd = Math.floor(Math.random() * 55) + 1;
-    var array = new Array();
-    array[0] = 'images/ammazzatoio_1.PNG';
-    array[1] = 'images/ammazzatoio_2.PNG';
-    array[2] = 'images/ammazzatoio_3.PNG';
-    array[3] = 'images/andrea-sperelli_1.PNG';
-    array[4] = 'images/arano_1.PNG';
-    array[5] = 'images/assiuolo_1.PNG';
-    array[6] = 'images/assiuolo_2.PNG';
-    array[7] = 'images/carriola_1.PNG';
-    array[8] = 'images/cavalleria-rusticana_1.PNG';
-    array[9] = 'images/conclusione-zeno_1.PNG';
-    array[10] = 'images/fanciullino_1.PNG';
-    array[11] = 'images/fantasticherie_1.PNG';
-    array[12] = 'images/fantasticherie_2.PNG';
-    array[13] = 'images/fiumi_1.PNG';
-    array[14] = 'images/fiumi_2.PNG';
-    array[15] = 'images/fiumi_3.PNG';
-    array[16] = 'images/gelsomino-notturno_1.PNG';
-    array[17] = 'images/gelsomino-notturno_2.PNG';
-    array[18] = 'images/italy_1.PNG';
-    array[19] = 'images/italy_2.PNG';
-    array[20] = 'images/lampo_1.PNG';
-    array[21] = 'images/lavandare_1.PNG';
-    array[22] = 'images/liberta_1.PNG';
-    array[23] = 'images/malpelo_1.PNG';
-    array[24] = 'images/malpelo_2.PNG';
-    array[25] = 'images/manifesto-futurismo_1.PNG';
-    array[26] = 'images/manifesto-tecnico-futurismo_1.PNG';
-    array[27] = 'images/nedda_1.PNG';
-    array[28] = 'images/nedda_2.PNG';
-    array[29] = 'images/patente_1.PNG';
-    array[30] = 'images/pianto-antico_1.PNG';
-    array[31] = 'images/pianto-antico_2.PNG';
-    array[32] = 'images/pioggia-pineto_1.PNG';
-    array[33] = 'images/pioggia-pineto_2.PNG';
-    array[34] = 'images/pioggia-pineto_3.PNG';
-    array[35] = 'images/preambolo-zeno_1.PNG';
-    array[36] = 'images/prefazione_1.PNG';
-    array[37] = 'images/prefazione-zeno_2.PNG';
-    array[38] = 'images/preludio_1.PNG';
-    array[39] = 'images/preludio_2.PNG';
-    array[40] = 'images/preludio_3.PNG';
-    array[41] = 'images/ritratto-esteta_1.PNG';
-    array[42] = 'images/roba_1.PNG';
-    array[43] = 'images/romanzo-sperimentale_1.PNG';
-    array[44] = 'images/romanzo-sperimentale_2.PNG';
-    array[45] = 'images/sera-fiesolana_1.PNG';
-    array[46] = 'images/sera-fiesolana_2.PNG';
-    array[47] = 'images/sera-fiesolana_3.PNG';
-    array[48] = 'images/temporale_1.PNG';
-    array[49] = 'images/toto-merumeni_1.PNG';
-    array[50] = 'images/tuono_1.PNG';
-    array[51] = 'images/umorismo_1.PNG';
-    array[52] = 'images/veglia_1.PNG';
-    array[53] = 'images/x-agosto_1.PNG';
-    array[54] = 'images/x-agosto_2.PNG';
-    array[55] = 'images/x-agosto_3.PNG';
-    document.getElementById("image").setAttribute("src", array[rnd]);
-    document.getElementById("answer").innerHTML = array[rnd].substring(7, array[rnd].length - 6);
-    document.getElementById("answer").style.display = "none";
+    loadJSON(function (response) {
+        dataset = JSON.parse(response);
+        var con = true;
+        var c = 0;
+        while (con) {
+            var f = false;
+            c = getRnd();
+            var cont = 0;
+            arrayrnd.map(item => {
+                if (item === c) {
+                    f = true;
+                }
+                cont++;
+            })
+            if (cont === dataset.collection.length) {
+                arrayrnd = [];
+            } else {
+                if (f) {
+                    con = true;
+                } else {
+                    con = false;
+                }
+            }
+        }
+        document.getElementById("image").setAttribute("src", dataset.collection[c].src);
+        document.getElementById("answer").innerHTML = dataset.collection[c].opera
+        document.getElementById("answer").style.display = "none";
+    });
 }
-function showAnswer(){
+function showAnswer() {
     document.getElementById("answer").style.display = "block";
+}
+
+function getRnd() {
+    return Math.floor(Math.random() * 60);
+}
+
+function loadJSON(callback) {
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/json");
+    xobj.open('GET', './dataset.json', true);
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
 }

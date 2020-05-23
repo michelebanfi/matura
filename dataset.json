@@ -1,0 +1,248 @@
+{
+    "collection": [
+        {
+            "opera": "ammazzatoio",
+            "src": "images/ammazzatoio_1.PNG"
+        },
+        {
+            "opera": "ammazzatoio",
+            "src": "images/ammazzatoio_2.PNG"
+        },
+        {
+            "opera": "ammazzatoio",
+            "src": "images/ammazzatoio_3.PNG"
+        },
+        {
+            "opera": "andrea-sperelli",
+            "src": "images/andrea-sperelli_1.PNG"
+        },
+        {
+            "opera": "arano",
+            "src": "images/arano_1.PNG"
+        },
+        {
+            "opera": "assiuolo",
+            "src": "images/assiuolo_1.PNG"
+        },
+        {
+            "opera": "assiuolo",
+            "src": "images/assiuolo_2.PNG"
+        },
+        {
+            "opera": "carriola",
+            "src": "images/carriola_1.PNG"
+        },
+        {
+            "opera": "cavalleria-rusticana",
+            "src": "images/cavalleria-rusticana_1.PNG"
+        },
+        {
+            "opera": "conclusione-zeno",
+            "src": "images/conclusione-zeno_1.PNG"
+        },
+        {
+            "opera": "fanciullino",
+            "src": "images/fanciullino_1.PNG"
+        },
+        {
+            "opera": "fantasticheria",
+            "src": "images/fantasticherie_1.PNG"
+        },
+        {
+            "opera": "fantasticherie",
+            "src": "images/fantasticherie_2.PNG"
+        },
+        {
+            "opera": "fiumi",
+            "src": "images/fiumi_1.PNG"
+        },
+        {
+            "opera": "fiumi",
+            "src": "images/fiumi_2.PNG"
+        },
+        {
+            "opera": "fiumi",
+            "src": "images/fiumi_3.PNG"
+        },
+        {
+            "opera": "gelsomino-notturno",
+            "src": "images/gelsomino-notturno_1.PNG"
+        },
+        {
+            "opera": "gelsomino-notturno",
+            "src": "images/gelsomino-notturno_2.PNG"
+        },
+        {
+            "opera": "italy",
+            "src": "images/italy_1.PNG"
+        },
+        {
+            "opera": "italy",
+            "src": "images/italy_2.PNG"
+        },
+        {
+            "opera": "lampo",
+            "src": "images/lampo_1.PNG"
+        },
+        {
+            "opera": "lavandare",
+            "src": "images/lavandare_1.PNG"
+        },
+        {
+            "opera": "liberta",
+            "src": "images/liberta_1.PNG"
+        },
+        {
+            "opera": "malpelo",
+            "src": "images/malpelo_1.PNG"
+        },
+        {
+            "opera": "malpelo",
+            "src": "images/malpelo_2.PNG"
+        },
+        {
+            "opera": "manifesto-futurismo",
+            "src": "images/manifesto-futurismo_1.PNG"
+        },
+        {
+            "opera": "manifesto-tecnico-futurismo",
+            "src": "images/manifesto-tecnico-futurismo_1.PNG"
+        },
+        {
+            "opera": "nedda",
+            "src": "images/nedda_1.PNG"
+        },
+        {
+            "opera": "nedda",
+            "src": "images/nedda_2.PNG"
+        },
+        {
+            "opera": "patente",
+            "src": "images/patente_1.PNG"
+        },
+        {
+            "opera": "pianto-antico",
+            "src": "images/pianto-antico_1.PNG"
+        },
+        {
+            "opera": "pianto-antico",
+            "src": "images/pianto-antico_2.PNG"
+        },
+        {
+            "opera": "pioggia-pineto",
+            "src": "images/pioggia-pineto_1.PNG"
+        },
+        {
+            "opera": "pioggia-pineto",
+            "src": "images/pioggia-pineto_2.PNG"
+        },
+        {
+            "opera": "pioggia-pineto",
+            "src": "images/pioggia-pineto_3.PNG"
+        },
+        {
+            "opera": "preambolo-zeno",
+            "src": "images/preambolo-zeno_1.PNG"
+        },
+        {
+            "opera": "prefazione",
+            "src": "images/prefazione_1.PNG"
+        },
+        {
+            "opera": "prefazione-zeno",
+            "src": "images/prefazione-zeno_1.PNG"
+        },
+        {
+            "opera": "preludio",
+            "src": "images/preludio_1.PNG"
+        },
+        {
+            "opera": "preludio",
+            "src": "images/preludio_2.PNG"
+        },
+        {
+            "opera": "preludio",
+            "src": "images/preludio_3.PNG"
+        },
+        {
+            "opera": "ritratto-esteta",
+            "src": "images/ritratto-esteta_1.PNG"
+        },
+        {
+            "opera": "roba",
+            "src": "images/roba_1.PNG"
+        },
+        {
+            "opera": "romanzo-sperimentale",
+            "src": "images/romanzo-sperimentale_1.PNG"
+        },
+        {
+            "opera": "romanzo-sperimentale",
+            "src": "images/romanzo-sperimentale_2.PNG"
+        },
+        {
+            "opera": "sera-fiesolana",
+            "src": "images/sera-fiesolana_1.PNG"
+        },
+        {
+            "opera": "sera-fiesolana",
+            "src": "images/sera-fiesolana_2.PNG"
+        },
+        {
+            "opera": "sera-fiesolana",
+            "src": "images/sera-fiesolana_3.PNG"
+        },
+        {
+            "opera": "temporale",
+            "src": "images/temporale_1.PNG"
+        },
+        {
+            "opera": "toto-merumeni",
+            "src": "images/toto-merumeni_1.PNG"
+        },
+        {
+            "opera": "tuono",
+            "src": "images/tuono_1.PNG"
+        },
+        {
+            "opera": "umorismo",
+            "src": "images/umorismo_1.PNG"
+        },
+        {
+            "opera": "veglia",
+            "src": "images/veglia_1.PNG"
+        },
+        {
+            "opera": "x-agosto",
+            "src": "images/x-agosto_1.PNG"
+        },
+        {
+            "opera": "x-agosto",
+            "src": "images/x-agosto_2.PNG"
+        },
+        {
+            "opera": "x-agosto",
+            "src": "images/x-agosto_3.PNG"
+        },
+        {
+            "opera": "la-primavera-hitleriana",
+            "src": "images/la-primavera-hitleriana_1.PNG"
+        },
+        {
+            "opera": "la-primavera-hitleriana",
+            "src": "images/la-primavera-hitleriana_2.PNG"
+        },
+        {
+            "opera": "mareggiare-pallido-e-assorto",
+            "src": "images/mareggiare-pallido-e-assorto_1.PNG"
+        },
+        {
+            "opera": "non-chiederci-la-parola",
+            "src": "images/non-chiederci-la-parola_1.PNG"
+        },
+        {
+            "opera": "spesso-il-male-di-vivere",
+            "src": "images/spesso-il-male-di-vivere_1.PNG"   
+        }
+    ]
+}
