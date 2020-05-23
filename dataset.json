@@ -2,247 +2,308 @@
     "collection": [
         {
             "opera": "ammazzatoio",
+            "autore": "emile zola",
             "src": "images/ammazzatoio_1.PNG"
         },
         {
             "opera": "ammazzatoio",
+            "autore": "emile zola",
             "src": "images/ammazzatoio_2.PNG"
         },
         {
             "opera": "ammazzatoio",
+            "autore": "emile zola",
             "src": "images/ammazzatoio_3.PNG"
         },
         {
             "opera": "andrea-sperelli",
+            "autore": "d'annunzio",
             "src": "images/andrea-sperelli_1.PNG"
         },
         {
             "opera": "arano",
+            "autore": "pascoli",
             "src": "images/arano_1.PNG"
         },
         {
             "opera": "assiuolo",
+            "autore": "pascoli",
             "src": "images/assiuolo_1.PNG"
         },
         {
             "opera": "assiuolo",
+            "autore": "pascoli",
             "src": "images/assiuolo_2.PNG"
         },
         {
             "opera": "carriola",
+            "autore": "pirandello",
             "src": "images/carriola_1.PNG"
         },
         {
             "opera": "cavalleria-rusticana",
+            "autore": "verga",
             "src": "images/cavalleria-rusticana_1.PNG"
         },
         {
             "opera": "conclusione-zeno",
+            "autore": "svevo",
             "src": "images/conclusione-zeno_1.PNG"
         },
         {
             "opera": "fanciullino",
+            "autore": "pascoli",
             "src": "images/fanciullino_1.PNG"
         },
         {
             "opera": "fantasticheria",
+            "autore": "verga",
             "src": "images/fantasticherie_1.PNG"
         },
         {
             "opera": "fantasticherie",
+            "autore": "pascoli",
             "src": "images/fantasticherie_2.PNG"
         },
         {
             "opera": "fiumi",
+            "autore": "ungaretti",
             "src": "images/fiumi_1.PNG"
         },
         {
             "opera": "fiumi",
+            "autore": "ungaretti",
             "src": "images/fiumi_2.PNG"
         },
         {
             "opera": "fiumi",
+            "autore": "ungaretti",
             "src": "images/fiumi_3.PNG"
         },
         {
             "opera": "gelsomino-notturno",
+            "autore": "pascoli",
             "src": "images/gelsomino-notturno_1.PNG"
         },
         {
             "opera": "gelsomino-notturno",
+            "autore": "pascoli",
             "src": "images/gelsomino-notturno_2.PNG"
         },
         {
             "opera": "italy",
+            "autore": "pascoli",
             "src": "images/italy_1.PNG"
         },
         {
             "opera": "italy",
+            "autore": "pascoli",
             "src": "images/italy_2.PNG"
         },
         {
             "opera": "lampo",
+            "autore": "pascoli",
             "src": "images/lampo_1.PNG"
         },
         {
             "opera": "lavandare",
+            "autore": "pascoli",
             "src": "images/lavandare_1.PNG"
         },
         {
             "opera": "liberta",
+            "autore": "verga",
             "src": "images/liberta_1.PNG"
         },
         {
             "opera": "malpelo",
+            "autore": "verga",
             "src": "images/malpelo_1.PNG"
         },
         {
             "opera": "malpelo",
+            "autore": "verga",
             "src": "images/malpelo_2.PNG"
         },
         {
             "opera": "manifesto-futurismo",
+            "autore": "marinetti",
             "src": "images/manifesto-futurismo_1.PNG"
         },
         {
             "opera": "manifesto-tecnico-futurismo",
+            "autore": "marinetti",
             "src": "images/manifesto-tecnico-futurismo_1.PNG"
         },
         {
             "opera": "nedda",
+            "autore": "verga",
             "src": "images/nedda_1.PNG"
         },
         {
             "opera": "nedda",
+            "autore": "verga",
             "src": "images/nedda_2.PNG"
         },
         {
             "opera": "patente",
+            "autore": "pirandello",
             "src": "images/patente_1.PNG"
         },
         {
             "opera": "pianto-antico",
+            "autore": "carducci",
             "src": "images/pianto-antico_1.PNG"
         },
         {
             "opera": "pianto-antico",
+            "autore": "carducci",
             "src": "images/pianto-antico_2.PNG"
         },
         {
             "opera": "pioggia-pineto",
+            "autore": "d'annunzio",
             "src": "images/pioggia-pineto_1.PNG"
         },
         {
             "opera": "pioggia-pineto",
+            "autore": "d'annunzio",
             "src": "images/pioggia-pineto_2.PNG"
         },
         {
             "opera": "pioggia-pineto",
+            "autore": "d'annunzio",
             "src": "images/pioggia-pineto_3.PNG"
         },
         {
             "opera": "preambolo-zeno",
+            "autore": "svevo",
             "src": "images/preambolo-zeno_1.PNG"
         },
         {
             "opera": "prefazione",
+            "autore": "verga",
             "src": "images/prefazione_1.PNG"
         },
         {
             "opera": "prefazione-zeno",
+            "autore": "svevo",
             "src": "images/prefazione-zeno_1.PNG"
         },
         {
             "opera": "preludio",
+            "autore": "emilio praga",
             "src": "images/preludio_1.PNG"
         },
         {
             "opera": "preludio",
+            "autore": "emilio praga",
             "src": "images/preludio_2.PNG"
         },
         {
             "opera": "preludio",
+            "autore": "emilio praga",
             "src": "images/preludio_3.PNG"
         },
         {
             "opera": "ritratto-esteta",
+            "autore": "d'annunzio",
             "src": "images/ritratto-esteta_1.PNG"
         },
         {
             "opera": "roba",
+            "autore": "verga",
             "src": "images/roba_1.PNG"
         },
         {
             "opera": "romanzo-sperimentale",
+            "autore": "emile zola",
             "src": "images/romanzo-sperimentale_1.PNG"
         },
         {
             "opera": "romanzo-sperimentale",
+            "autore": "emile zola",
             "src": "images/romanzo-sperimentale_2.PNG"
         },
         {
             "opera": "sera-fiesolana",
+            "autore": "d'annunzio",
             "src": "images/sera-fiesolana_1.PNG"
         },
         {
             "opera": "sera-fiesolana",
+            "autore": "d'annunzio",
             "src": "images/sera-fiesolana_2.PNG"
         },
         {
             "opera": "sera-fiesolana",
+            "autore": "d'annunzio",
             "src": "images/sera-fiesolana_3.PNG"
         },
         {
             "opera": "temporale",
+            "autore": "pasoli",
             "src": "images/temporale_1.PNG"
         },
         {
             "opera": "toto-merumeni",
+            "autore": "guido gozzano",
             "src": "images/toto-merumeni_1.PNG"
         },
         {
             "opera": "tuono",
+            "autore": "pasoli",
             "src": "images/tuono_1.PNG"
         },
         {
             "opera": "umorismo",
+            "autore": "pirandello",
             "src": "images/umorismo_1.PNG"
         },
         {
             "opera": "veglia",
+            "autore": "ungaretti",
             "src": "images/veglia_1.PNG"
         },
         {
             "opera": "x-agosto",
+            "autore": "pascoli",
             "src": "images/x-agosto_1.PNG"
         },
         {
             "opera": "x-agosto",
+            "autore": "pascoli",
             "src": "images/x-agosto_2.PNG"
         },
         {
             "opera": "x-agosto",
+            "autore": "pascoli",
             "src": "images/x-agosto_3.PNG"
         },
         {
             "opera": "la-primavera-hitleriana",
+            "autore": "montale",
             "src": "images/la-primavera-hitleriana_1.PNG"
         },
         {
             "opera": "la-primavera-hitleriana",
+            "autore": "montale",
             "src": "images/la-primavera-hitleriana_2.PNG"
         },
         {
             "opera": "mareggiare-pallido-e-assorto",
+            "autore": "montale",
             "src": "images/mareggiare-pallido-e-assorto_1.PNG"
         },
         {
             "opera": "non-chiederci-la-parola",
+            "autore": "montale",
             "src": "images/non-chiederci-la-parola_1.PNG"
         },
         {
             "opera": "spesso-il-male-di-vivere",
-            "src": "images/spesso-il-male-di-vivere_1.PNG"   
+            "autore": "montale",
+            "src": "images/spesso-il-male-di-vivere_1.PNG"
         }
     ]
 }

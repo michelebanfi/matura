@@ -30,12 +30,16 @@ function changeImage() {
             }
         }
         document.getElementById("image").setAttribute("src", dataset.collection[c].src);
-        document.getElementById("answer").innerHTML = dataset.collection[c].opera
-        document.getElementById("answer").style.display = "none";
+        document.getElementById("opera").innerHTML = dataset.collection[c].opera
+        document.getElementById("opera").style.display = "none";
+        document.getElementById("author").innerHTML = dataset.collection[c].autore
+        document.getElementById("author").style.display = "none";
     });
 }
 function showAnswer() {
-    document.getElementById("answer").style.display = "block";
+    document.getElementById("opera").style.display = "block";
+    document.getElementById("author").style.display = "block";
+
 }
 
 function getRnd() {
