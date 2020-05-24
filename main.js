@@ -14,7 +14,7 @@ function changeImage() {
                 if (item === c) {
                     f = true;
                 }
-                cont++;
+                cont += 1;
             })
             if (cont === dataset.collection.length) {
                 arrayrnd = [];
@@ -23,6 +23,7 @@ function changeImage() {
                     con = true;
                 } else {
                     arrayrnd.push(c);
+                    cont = 0;
                     con = false;
                 }
             }
