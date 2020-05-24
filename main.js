@@ -1,6 +1,3 @@
-
-
-var array = new Array();
 var arrayrnd = [];
 var dataset;
 
@@ -25,6 +22,7 @@ function changeImage() {
                 if (f) {
                     con = true;
                 } else {
+                    arrayrnd.push(c);
                     con = false;
                 }
             }
